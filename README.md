@@ -17,3 +17,19 @@ To enable simply run configure script:
 ```bash
 ./configure.sh
 ```
+
+## Building documentation
+
+
+### Install requirements
+
+```bash
+apt install doxygen graphviz
+pip install -r requirements.txt
+```
+
+### Run build
+
+```bash
+cd docs/sphinx && make build-docs
+```
