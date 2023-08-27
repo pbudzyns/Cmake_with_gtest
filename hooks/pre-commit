@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# Simple pre-commit hook, always runs for all files
+# Simple pre commit hook, always runs for all files
 # for more complicated project you would probably like to use pre-commit tool: https://pre-commit.com
 
 src_files=$(find src -type f -regex ".*\.\(cpp\|cxx\|h\|hpp\)")
