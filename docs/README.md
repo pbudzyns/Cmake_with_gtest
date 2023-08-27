@@ -4,7 +4,7 @@
 
 ```bash
 apt install doxygen graphviz
-pip intsall -r ../requirements.txt
+pip install -r ../requirements.txt
 ```
 
 ## Run build
