@@ -6,6 +6,6 @@ TEST(SortingTest, GetMin)
 {
 
     EXPECT_EQ(
-        Sort::min(2, 3),
+        Sort::Min(2, 3),
         2);
 }
